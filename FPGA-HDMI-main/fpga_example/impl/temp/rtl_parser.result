@@ -1,0 +1,134 @@
+[
+ {
+  "InstFile" : "E:/project gowin/FPGA-HDMI-main/fpga_example/RTL/fpga_top.v",
+  "InstLine" : 9,
+  "InstName" : "fpga_top",
+  "ModuleFile" : "E:/project gowin/FPGA-HDMI-main/fpga_example/RTL/fpga_top.v",
+  "ModuleLine" : 9,
+  "ModuleName" : "fpga_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "E:/project gowin/FPGA-HDMI-main/fpga_example/RTL/fpga_top.v",
+    "InstLine" : 36,
+    "InstName" : "u_pll",
+    "ModuleFile" : "E:/project gowin/FPGA-HDMI-main/fpga_example/RTL/gowin_pllvr/gowin_pllvr.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_PLLVR"
+   },
+   {
+    "InstFile" : "E:/project gowin/FPGA-HDMI-main/fpga_example/RTL/fpga_top.v",
+    "InstLine" : 50,
+    "InstName" : "u_pixel_generate",
+    "ModuleFile" : "E:/project gowin/FPGA-HDMI-main/fpga_example/RTL/pixel_generate.v",
+    "ModuleLine" : 8,
+    "ModuleName" : "pixel_generate"
+   },
+   {
+    "InstFile" : "E:/project gowin/FPGA-HDMI-main/fpga_example/RTL/fpga_top.v",
+    "InstLine" : 68,
+    "InstName" : "u_hdmi_tx_top",
+    "ModuleFile" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tx_top.v",
+    "ModuleLine" : 11,
+    "ModuleName" : "hdmi_tx_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tx_top.v",
+      "InstLine" : 213,
+      "InstName" : "u_tmds_encode_red",
+      "ModuleFile" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tmds_encode.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "hdmi_tmds_encode"
+     },
+     {
+      "InstFile" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tx_top.v",
+      "InstLine" : 224,
+      "InstName" : "u_tmds_encode_green",
+      "ModuleFile" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tmds_encode.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "hdmi_tmds_encode"
+     },
+     {
+      "InstFile" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tx_top.v",
+      "InstLine" : 235,
+      "InstName" : "u_tmds_encode_blue",
+      "ModuleFile" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tmds_encode.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "hdmi_tmds_encode"
+     },
+     {
+      "InstFile" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tx_top.v",
+      "InstLine" : 255,
+      "InstName" : "u_hdmi_async_fifo",
+      "ModuleFile" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_async_fifo.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "hdmi_async_fifo"
+     },
+     {
+      "InstFile" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tx_top.v",
+      "InstLine" : 335,
+      "InstName" : "u0p_ddr",
+      "ModuleFile" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tddr.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "hdmi_tddr"
+     },
+     {
+      "InstFile" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tx_top.v",
+      "InstLine" : 336,
+      "InstName" : "u0n_ddr",
+      "ModuleFile" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tddr.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "hdmi_tddr"
+     },
+     {
+      "InstFile" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tx_top.v",
+      "InstLine" : 337,
+      "InstName" : "u1p_ddr",
+      "ModuleFile" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tddr.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "hdmi_tddr"
+     },
+     {
+      "InstFile" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tx_top.v",
+      "InstLine" : 338,
+      "InstName" : "u1n_ddr",
+      "ModuleFile" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tddr.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "hdmi_tddr"
+     },
+     {
+      "InstFile" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tx_top.v",
+      "InstLine" : 339,
+      "InstName" : "u2p_ddr",
+      "ModuleFile" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tddr.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "hdmi_tddr"
+     },
+     {
+      "InstFile" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tx_top.v",
+      "InstLine" : 340,
+      "InstName" : "u2n_ddr",
+      "ModuleFile" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tddr.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "hdmi_tddr"
+     },
+     {
+      "InstFile" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tx_top.v",
+      "InstLine" : 341,
+      "InstName" : "u3p_ddr",
+      "ModuleFile" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tddr.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "hdmi_tddr"
+     },
+     {
+      "InstFile" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tx_top.v",
+      "InstLine" : 342,
+      "InstName" : "u3n_ddr",
+      "ModuleFile" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tddr.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "hdmi_tddr"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,41 @@
+{
+ "Device" : "GW1NSR-4C",
+ "Files" : [
+  {
+   "Path" : "E:/project gowin/FPGA-HDMI-main/fpga_example/RTL/fpga_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/project gowin/FPGA-HDMI-main/fpga_example/RTL/gowin_pllvr/gowin_pllvr.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/project gowin/FPGA-HDMI-main/fpga_example/RTL/pixel_generate.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tx_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tmds_encode.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_async_fifo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/project gowin/FPGA-HDMI-main/RTL/hdmi_tddr.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "E:/project gowin/FPGA-HDMI-main/fpga_example/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

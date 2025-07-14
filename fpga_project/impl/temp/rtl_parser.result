@@ -1,0 +1,36 @@
+[
+ {
+  "InstFile" : "E:/project gowin/fpga_project/src/test.v",
+  "InstLine" : 1,
+  "InstName" : "hdmi_counter",
+  "ModuleFile" : "E:/project gowin/fpga_project/src/test.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "hdmi_counter",
+  "SubInsts" : [
+   {
+    "InstFile" : "E:/project gowin/fpga_project/src/test.v",
+    "InstLine" : 86,
+    "InstName" : "tmds_r",
+    "ModuleFile" : "E:/project gowin/fpga_project/src/test.v",
+    "ModuleLine" : 92,
+    "ModuleName" : "tmds_encoder"
+   },
+   {
+    "InstFile" : "E:/project gowin/fpga_project/src/test.v",
+    "InstLine" : 87,
+    "InstName" : "tmds_g",
+    "ModuleFile" : "E:/project gowin/fpga_project/src/test.v",
+    "ModuleLine" : 92,
+    "ModuleName" : "tmds_encoder"
+   },
+   {
+    "InstFile" : "E:/project gowin/fpga_project/src/test.v",
+    "InstLine" : 88,
+    "InstName" : "tmds_b",
+    "ModuleFile" : "E:/project gowin/fpga_project/src/test.v",
+    "ModuleLine" : 92,
+    "ModuleName" : "tmds_encoder"
+   }
+  ]
+ }
+]

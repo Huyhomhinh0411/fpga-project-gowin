@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="fpga_top" Lut="1" T_Register="642(0)" T_Alu="29(0)" T_Lut="594(1)" T_Bsram="1(0)">
+ <SubModule name="u_pll"/>
+ <SubModule name="u_pixel_generate" Register="67" Lut="190" Bsram="1" T_Register="67(67)" T_Lut="190(190)" T_Bsram="1(1)"/>
+ <SubModule name="u_hdmi_tx_top" Register="85" Lut="92" T_Register="575(85)" T_Alu="29(0)" T_Lut="403(92)">
+  <SubModule name="u_tmds_encode_red" Register="21" Alu="4" Lut="15" T_Register="21(21)" T_Alu="4(4)" T_Lut="15(15)"/>
+  <SubModule name="u_tmds_encode_green" Register="7" Alu="4" Lut="14" T_Register="7(7)" T_Alu="4(4)" T_Lut="14(14)"/>
+  <SubModule name="u_tmds_encode_blue" Register="15" Alu="4" Lut="14" T_Register="15(15)" T_Alu="4(4)" T_Lut="14(14)"/>
+  <SubModule name="u_hdmi_async_fifo" Register="423" Alu="17" Lut="259" T_Register="423(423)" T_Alu="17(17)" T_Lut="259(259)"/>
+  <SubModule name="u0p_ddr" Register="3" Lut="2" T_Register="3(3)" T_Lut="2(2)"/>
+  <SubModule name="u0n_ddr" Register="3" Lut="1" T_Register="3(3)" T_Lut="1(1)"/>
+  <SubModule name="u1p_ddr" Register="3" Lut="1" T_Register="3(3)" T_Lut="1(1)"/>
+  <SubModule name="u1n_ddr" Register="3" Lut="1" T_Register="3(3)" T_Lut="1(1)"/>
+  <SubModule name="u2p_ddr" Register="3" Lut="1" T_Register="3(3)" T_Lut="1(1)"/>
+  <SubModule name="u2n_ddr" Register="3" Lut="1" T_Register="3(3)" T_Lut="1(1)"/>
+  <SubModule name="u3p_ddr" Register="3" Lut="1" T_Register="3(3)" T_Lut="1(1)"/>
+  <SubModule name="u3n_ddr" Register="3" Lut="1" T_Register="3(3)" T_Lut="1(1)"/>
+ </SubModule>
+</Module>
